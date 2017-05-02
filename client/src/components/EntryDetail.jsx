@@ -6,7 +6,7 @@ const EntryDetail = (props) => {
     return (
       <div id='music-details' >
         <h3>
-          {props.music.title.label}
+          {props.music.title}
         </h3>
       </div>
     

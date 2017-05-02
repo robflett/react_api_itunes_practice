@@ -3,9 +3,9 @@ import EntryDetail from './EntryDetail'
 
 
  const MusicSelector = (props) => {
-    // console.log(this.props.entries)
+    console.log(props.entries)
    
-    const music = props.entries.map((music, index) => {
+    const music = props.entries.map((entry, index) => {
       return <EntryDetail entry={entry} key={index}/>
     })
 
